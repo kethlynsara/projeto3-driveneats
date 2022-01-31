@@ -47,6 +47,12 @@ function selecionarSobremesa(classeOpcoes) {
     
 }
 
+function fecharPedido() {
+   let mensagem = "Olá, gostaria de fazer o pedido: - Prato: Frango Yin Yang - Bebida: Coquinha gelada - Sobremesa: Pudim Total: R$ 27.70";
+    mensagem = encodeURIComponent(mensagem);
+    window.open( "https://wa.me/5531999999999?text=" + mensagem);
+}
+
 
 
 
