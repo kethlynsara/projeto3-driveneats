@@ -19,20 +19,20 @@
 
     <h3 class="nome-categoria categoria1">Primeiro, seu prato</h3>
     
-    <div class="menus menu-prato">
-        <div class="opcoes">
+    <div class="menus menu-prato" data-identifier="dishes">
+        <div class="opcoes prato1" onclick="selecionarPrato('.prato1')">
             <img src="imagens/frango_yin_yang 1.png">
             <p class="info1-img"><strong>Frango Yin Yang</strong></p>
             <p class="info2-img">Um pouco de batata, um pouco de salada</p>
             <p class="info3-img">R$ 14,90</p>
         </div>
-        <div class="opcoes">
+        <div class="opcoes prato2" onclick="selecionarPrato('.prato2')">
             <img src="imagens/frango_yin_yang 1.png">
             <p class="info1-img"><strong>Frango Yin Yang</strong></p>
             <p class="info2-img">Um pouco de batata, um pouco de salada</p>
             <p class="info3-img">R$ 14,90</p>
         </div>
-        <div class="opcoes">
+        <div class="opcoes prato3" onclick="selecionarPrato('.prato3')">
             <img src="imagens/frango_yin_yang 1.png">
             <p class="info1-img"><strong>Frango Yin Yang</strong></p>
             <p class="info2-img">Um pouco de batata, um pouco de salada</p>
@@ -42,20 +42,20 @@
 
     <h3 class="nome-categoria ">Agora, sua bebida</h3>
     
-    <div class="menus menu-bebida">
-        <div class="opcoes">
+    <div class="menus menu-bebida" data-identifier="drinks">
+        <div class="opcoes bebida1" onclick="selecionarBebida('.bebida1')" data-identifier="food-option">
             <img src="imagens/coquinha_gelada 1.png">
             <p class="info1-img"><strong>Coquinha gelada</strong></p>
             <p class="info2-img">Lata 350ml</p>
             <p class="info3-img">R$ 4,90</p>
         </div>
-        <div class="opcoes">
+        <div class="opcoes bebida2" onclick="selecionarBebida('.bebida2')" data-identifier="food-option">
             <img src="imagens/coquinha_gelada 1.png">
             <p class="info1-img"><strong>Coquinha gelada</strong></p>
             <p class="info2-img">Lata 350ml</p>
             <p class="info3-img">R$ 4,90</p>
         </div>
-        <div class="opcoes">
+        <div class="opcoes bebida3" onclick="selecionarBebida('.bebida3')" data-identifier="food-option">
             <img src="imagens/coquinha_gelada 1.png">
             <p class="info1-img"><strong>Coquinha gelada</strong></p>
             <p class="info2-img">Lata 350ml</p>
@@ -65,20 +65,20 @@
 
     <h3 class="nome-categoria ">Por fim, sua sobremesa</h3>
     
-    <div class="menus menu-sobremesa">
-        <div class="opcoes">
+    <div class="menus menu-sobremesa" data-identifier="desserts">
+        <div class="opcoes sobremesa1" onclick="selecionarSobremesa('.sobremesa1')" data-identifier="food-option">
             <img src="imagens/pudim 1.png">
             <p class="info1-img"><strong>Pudim</strong></p>
             <p class="info2-img">apenas pudim</p>
             <p class="info3-img">R$ 7,90</p>
         </div>
-        <div class="opcoes">
+        <div class="opcoes sobremesa2" onclick="selecionarSobremesa('.sobremesa2')" data-identifier="food-option">
             <img src="imagens/pudim 1.png">
             <p class="info1-img"><strong>Pudim</strong></p>
             <p class="info2-img">apenas pudim</p>
             <p class="info3-img">R$ 7,90</p>
         </div>
-        <div class="opcoes">
+        <div class="opcoes sobremesa3" onclick="selecionarSobremesa('.sobremesa3')" data-identifier="food-option">
             <img src="imagens/pudim 1.png">
             <p class="info1-img"><strong>Pudim</strong></p>
             <p class="info2-img">apenas pudim</p>
@@ -91,5 +91,8 @@
             <p>Selecione os 3 itens para fechar o pedido</p>
         </div>
     </div>
+
+
+    <script src="script.js"></script> 
 </body>
 </html>
